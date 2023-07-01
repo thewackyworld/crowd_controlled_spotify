@@ -1,0 +1,345 @@
+body
+{
+	background-color: #DAEDD9;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.cuffitclosetmobile
+{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{
+	text-align: center;
+}
+
+
+ol li 
+{
+	background-color: #c6c6c6;
+	border: solid rgb(34, 3, 125);
+	border-radius: 3em;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.5em;
+	list-style: none;
+	margin-left: -2.5em;
+	margin-top: 0.1em;
+}
+
+footer a
+{
+	color: black;
+}
+a
+{
+	text-decoration: none;
+}
+
+p
+{
+	font-weight: bold;
+}
+
+main
+{
+	font-family:  Arial, "Times New Roman", sans-serif;
+	background-color: #027E7E;
+	border-color: #027E7E; 
+	border-radius: 1em 3em;
+	padding-bottom: 2.5em;
+	color: black;
+	margin-top: 1em;
+	padding-top: 0.1em;
+	border: solid 0.1em;
+
+
+
+}
+
+footer
+{
+	text-align: center;
+	font-size: 0.8em;
+	margin: 1em
+}
+
+h1
+{
+	text-align: center;
+}
+
+li a
+{
+	color: black;
+	font-weight: bolder;
+	font-size: 1.3em;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+
+}
+
+nav
+{
+	margin-top: -0.8em;
+}
+.cuffitclosetdesktop
+{
+	display: none;
+}
+ul li
+{
+	padding: 0.5em;
+	border: black solid 4px;
+	list-style-type: none;
+	margin-bottom: 0.5em;
+	margin-top: 0.8em;
+	max-width: 100%;
+	text-align: center;
+	margin-left: -2em;
+
+}
+
+div
+{
+	text-align: left;
+
+}
+
+
+main img
+{
+	width: 99%;
+	border-color: transparent;
+	border-radius: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h4,h5
+{
+	text-align: center;
+}
+
+#ITEM
+{
+	margin-bottom: 2em;
+	text-align: center;
+	margin-right: 0.3em;
+	
+}
+
+footer a img
+{
+	width: 5%;
+	margin-top: 0.3em;
+}
+h3
+{
+	text-align: center;
+	margin-top: 1.5em;
+}
+#ITEM5
+{
+	margin-bottom: -em;
+}
+input,#country-state,#info
+{
+
+	display: block;
+	margin-bottom: 1em;
+	margin-left: 2em;
+
+}
+label
+{
+	color: lightgray;
+	display: block;
+}
+input[type="submit"],input[type="reset"]
+{
+	margin-top: 1em;
+	display: block;
+}
+#country-state
+{
+	margin-top: 0.2em;
+}
+.btn
+{
+	margin-left: 5em;
+}
+.randomtext
+{
+	margin-left: 0.5em;
+	font-weight: bold;
+}
+
+table,tr,td
+{
+	border: solid black 3px;
+	text-align: center;
+	padding: 0.2em;
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-bottom: 3EM;
+
+}
+caption
+{
+	border: solid black 3px;
+	text-align: center;
+	padding: 0.2em;
+}
+form
+{
+	margin-left: 3em;
+}
+
+
+
+
+@media only screen and (min-width: 660px)
+{
+
+body
+
+{
+
+	background-color: #302a2a
+
+}
+
+main
+
+{
+
+	background-color: #f9f9f9;
+	clear: left;
+
+}
+
+
+
+ol li 
+
+{
+
+	background-color: black;
+	border-radius: 0em;
+	border: solid black;
+	margin: 0;
+
+}
+
+
+.cuffitclosetmobile
+
+{
+	display: none;
+}
+
+.cuffitclosetdesktop
+
+{
+	display: block;
+	border-color: transparent;
+	border-radius: 3em;
+	margin-bottom: 0.3em;
+	max-width: 100%;
+	margin-top: 2em;
+
+}
+
+nav ol
+{
+		display: inline;
+		clear: left;
+		width: 18%;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 1%;
+		margin-right: 1%;
+		white-space: nowrap;
+		background-color: transparent;
+		color: white;
+}
+
+nav ol li a 
+{
+	color: white;
+}
+
+
+footer, footer a
+{
+	color: white;
+}
+
+
+label
+{
+	color: black;
+}
+
+
+table
+{
+	width: 70%;
+	margin-top: 2em;
+}
+
+}
+
+
+@media only screen and (min-width: 800px)
+{
+
+
+body
+{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,25,129,1) 23%, rgba(15,25,107,1) 40%, rgba(18,32,127,1) 56%, rgba(9,9,121,1) 75%, rgba(63,140,155,1) 100%);
+}
+
+.instagramlogo
+{
+	max-width: 3%;
+}
+
+.cuffitclosetdesktop
+{
+	
+	float: left;
+	margin-left: auto;
+}
+
+nav li a
+{
+
+display: inline-block;
+float: right;
+padding: 0;
+background-color: transparent;
+	
+}
+
+main
+{
+	clear: both;
+}
+ol li 
+{
+	border: none;
+	background-color: transparent;
+}
+
+}

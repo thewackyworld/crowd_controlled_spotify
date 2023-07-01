@@ -1,0 +1,29 @@
+<h1>Song Recomendation Page</h1>
+
+<table>
+  <tr>
+    <th>Song Name</th>
+    <th>Artist</th>
+    <th>Votes</th>
+  </tr>
+  {% for song in songs %}
+    <tr>        
+      <td>{{song.songname}}</td>
+      <td>{{song.artist}}</td>
+      <td>{{song.votes}}</td>
+      <td>
+      <form action="/addvote/{{song.id}}/" method="POST"> {% csrf_token %}
+        <input type="submit" value="Vote"/>
+      </form>
+    </td>
+    </tr>
+  {% endfor %}
+</table>
+
+</n>
+<h2>Add new songs</h2>
+<form action="/addsong/" method="POST"> {% csrf_token %}
+  <input type="text" name="songname"/>
+  <input type="text" name="artist"/>
+  <input type="submit" value="Add"/>
+</form>
