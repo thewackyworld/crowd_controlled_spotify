@@ -13,8 +13,11 @@ the already playing song (to give voters enough time to vote on the next song)
 
 
 Run the server using;
+
       pipenv shell
+      
       python manage.py runserver
+      
   
 go to http://127.0.0.1:8000/list/
 then run Spoopifying.py 
