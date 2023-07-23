@@ -12,7 +12,10 @@ is on the top of the list to the queue as the song that will play next. the prog
 the already playing song (to give voters enough time to vote on the next song)
 
 
-Run the server 
+Run the server using;
+      pipenv shell
+      python manage.py runserver
+  
 go to http://127.0.0.1:8000/list/
 then run Spoopifying.py 
 sign in to your spotify 
